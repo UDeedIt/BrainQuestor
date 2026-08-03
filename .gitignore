@@ -3,7 +3,6 @@
 .gradle
 **/build/
 xcuserdata
-!src/**/build/
 local.properties
 .idea
 .DS_Store
@@ -17,3 +16,15 @@ captures
 !*.xcworkspace/contents.xcworkspacedata
 **/xcshareddata/WorkspaceSettings.xcsettings
 node_modules/
+
+# Additional Android/KMP
+*.iws
+*.eml
+*.log
+*.log.*
+*.class
+.gradletasknamecache
+**/target/
+*.framework
+*.xcframework
+kotlin-native/
